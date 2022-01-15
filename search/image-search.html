@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search Images</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li>
+                <a href="image-search.html">
+                    Images
+                </a>
+            </li>
+            <li>
+                <a href="advance-search.html">
+                    Advance Search
+                </a>
+            </li>
+        </ul>
+    </header>
+    <div class="wrapper">
+        <img src="search-images.png" alt="Google Logo">
+        <span class="img-text">images</span>
+        <form action="https://google.com/search" class="search-form">
+            <div class="search-input-wrapper">
+                <img src="search.svg" alt="Search Icon" class="search-icon">
+                <input type="text" name="q" class="goog-input" autocomplete="off">
+            </div>
+            <input type="hidden" name="tbm" value="isch" />
+        </form>
+    </div>
+</body>
+
+</html>
